@@ -3,8 +3,9 @@
 import React from 'react';
 import {Routes, Route, BrowserRouter} from "react-router-dom";
 import Home from './cpages/Home';
-import Courses from './cpages/Courses';
+//import Courses from './cpages/Courses';
 import About from './cpages/About';
+import Bio from './cpages/Bio';
 
 
 
@@ -15,7 +16,7 @@ function App() {
   <Routes>
     <Route path="/" exact element={<Home />}></Route>
     <Route path="/about" exact element={<About />}></Route>
-    <Route path="/courses" exact element={<Courses />}></Route>
+    <Route path="/bio" exact element={<Bio />}></Route>
   </Routes>
   </BrowserRouter>
   </>
