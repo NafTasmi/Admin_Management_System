@@ -15,9 +15,9 @@ const Bio = () => {
                     <div className="row" align="center">
                         <div className="col-md-4">
                             <div className="profile-img">
-                                <h1>About Our Developers & Supervisor</h1>
+                                <h1>About Our Supervisor</h1>
                                 <br/>
-                            <img src={QureshiSir} alt="bio" />
+                            <img className="photo" src={QureshiSir} alt="bio" />
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -69,7 +69,10 @@ const Bio = () => {
                     <div className="row" align="center">
                         <div className="col-md-4">
                             <div className="profile-img">
-                            <img src={Badrul} alt="bio" />
+                            <br />
+                            <h1>About Our Developers</h1>
+                            <br />
+                            <img className="photo" src={Badrul} alt="bio" />
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -120,7 +123,7 @@ const Bio = () => {
                     <div className="row" align="center">
                         <div className="col-md-4">
                             <div className="profile-img">
-                            <img src={Nafisa} alt="bio" />
+                            <img className="photo" src={Nafisa} alt="bio" />
                             </div>
                         </div>
                         <div className="col-md-6">
