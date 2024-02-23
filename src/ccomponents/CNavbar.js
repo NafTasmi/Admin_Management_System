@@ -235,6 +235,7 @@ export default function CNavbar() {
               <MoreIcon />
             </IconButton>
           </Box>
+        
         </Toolbar>
       </AppBar>
       {renderMobileMenu}
